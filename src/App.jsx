@@ -11,24 +11,32 @@ import Work from './components/Portfolio/Work';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import Projects from './pages/projects/Projects';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Router>
 
-      <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Work />
-        {/*  <Testimonials /> */}
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollUp />
+        <Header />
+
+        <main className='main'>
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Qualification />
+          {/* <Work /> */}
+          {/*  <Testimonials /> */}
+          <Contact />
+        </main>
+
+
+
+        <Footer />
+        <ScrollUp />
+      </Router>
     </>
   )
 }

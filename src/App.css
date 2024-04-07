@@ -83,8 +83,10 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 h1,

@@ -49,43 +49,29 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              {/*   <div>
-                <h3 className="qualification__title">Engenharia de Software</h3>
-                <span className="qualification__subtitle">
-                  Faculdade Estacio
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>  3º semestre
-                </div>
-              </div> */}
+              <div>
 
-              {/*   <div>
+                <h3 className="qualification__title">Engenharia de Software</h3>
+                <span className="qualification__subtitle">Faculdade Estacio</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"> 3º semestre</i>
+                </div>
+              </div>
+              <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div> */}
+                <span className="qualification__line"></span>
+              </div>
             </div>
-
             <div className="qualification__data">
               <div></div>
-
               <div>
+                <br />
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-
               <div>
-                <h3 className="qualification__title">Engenharia de Software</h3>
-                <span className="qualification__subtitle">
-                  Faculdade Estacio
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>  3º semestre
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
+                <br />
                 <h3 className="qualification__title">Desenvolvedor Fullstack</h3>
                 <span className="qualification__subtitle">
                   Progamador Br
@@ -94,6 +80,20 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
+              <br />
+            </div>
+
+            <div className="qualification__data">
+              <div>
+
+                <h3 className="qualification__title">Tecnico em Automação Industrial</h3>
+                <span className="qualification__subtitle">
+                  Etec Julio de Mesquita
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>  2019 - 2021
+                </div>
+              </div>
 
               <div>
                 <span className="qualification__rounder"></span>
@@ -105,16 +105,20 @@ const Qualification = () => {
               <div></div>
 
               <div>
+                <br />
                 <span className="qualification__rounder"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">Tecnico em Automação Industrial</h3>
+                <br />
+                <h3 className="qualification__title">Eletricista Instalador</h3>
+
                 <span className="qualification__subtitle">
-                  Etec Julio de Mesquita
+                  Senai - Armando Arruda
                 </span>
+                <br />
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2021
+                  <i className="uil uil-calendar-alt"></i>160 - Horas
                 </div>
               </div>
             </div>

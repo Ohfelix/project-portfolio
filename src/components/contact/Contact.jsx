@@ -71,7 +71,7 @@ const Contact = () => {
             </div> */}
           </div>
         </div>
-
+        {/* 
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
@@ -128,7 +128,7 @@ const Contact = () => {
               </svg>
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );

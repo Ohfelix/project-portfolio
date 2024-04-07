@@ -31,16 +31,15 @@
 .footer__social {
     display: flex;
     justify-content: center;
-    column-gap: 1.25rem;
+    column-gap: 1rem;
 }
 
 .footer__social-link {
-    background-color: var(--title-color);
-    color: var(--container-color);
-    font-size: 1.125rem;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-    display: inline-flex;
+    width: 60px; /* Define a largura desejada para as imagens */
+    height: 60px; /* Define a altura desejada para as imagens */
+    object-fit: cover;
+    mix-blend-mode: normal;
+    margin: 10px; /* Ajuste conforme necessário */
 }
 
 .footer__social-link:hover {
@@ -54,8 +53,13 @@
     text-align: center;
     font-size: var(--smaller-font-size);
 }
+
 .reg {
     font-size: large;
+}
+.social img {
+    width: 5px; /* Define o tamanho desejado para as imagens dos ícones sociais */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 /*=============== BREAKPOINTS ===============*/

@@ -46,7 +46,7 @@
 .qualification__data {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
+    column-gap: 1rem;
 }
 
 .qualification__title {
@@ -62,6 +62,7 @@
 
 .qualification__calender {
     font-size: var(--small-font-size);
+    padding: 1px;
 }
 
 .qualification__rounder {
@@ -75,9 +76,9 @@
 .qualification__line {
     display: block;
     width: 1px;
-    height: 100%;
+    height: 120%;
     background-color: var(--text-color);
-    transform: translate(6px, -7px);
+    transform: translate(7px, -17px);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -87,17 +88,17 @@
         margin-left: auto;
         margin-right: auto;
     }
-  }
-  
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
     .qualification__container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
-  }
-  
-  @media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 576px) {
     .qualification__sections {
         grid-template-columns: initial;
     }
@@ -105,12 +106,11 @@
     .qualification__button {
         margin: 0 var(--mb-0-75);
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
     .qualification__data {
         gap: 0.5rem;
     }
-  }
-  
+}

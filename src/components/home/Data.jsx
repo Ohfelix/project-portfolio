@@ -55,9 +55,9 @@ const Data = () => {
           ></path> */}
         </svg>
       </h1>
-      <h3 className="home__subtitle">Engenheiro de Software</h3>
+      <h3 className="home__subtitle">estudante de Engenheiro de Software</h3>
       <p className="home__description">
-        As a fullstack developer, I excel at crafting comprehensive solutions, from user-friendly interfaces to efficient backend business logic. My creative approach enables me to innovate solutions that drive your business success through technology. I'm dedicated to delivering exceptional results and adding value to the projects I work on.
+        Como desenvolvedor fullstack, sou excelente na criação de soluções abrangentes, desde interfaces fáceis de usar até lógica de negócios de back-end eficiente. Minha abordagem criativa me permite inovar soluções que impulsionam o sucesso do seu negócio por meio da tecnologia. Me dedico a entregar resultados e agregar valor aos projetos em que trabalho.
       </p>
 
       <a href="#contact" className="button button--flex">
